@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/dmkim/Documents/socket/build",
+  "command": "/usr/bin/g++  -I/home/dmkim/Documents/socket/server -I\"/home/dmkim/Documents/socket/server/*.h\" -I/home/dmkim/Documents/socket/client -g -D_FILE_OFFSET_BITS=64 -std=gnu++17 -o CMakeFiles/socket.dir/main.cpp.o -c /home/dmkim/Documents/socket/main.cpp",
+  "file": "/home/dmkim/Documents/socket/main.cpp"
+},
+{
+  "directory": "/home/dmkim/Documents/socket/build/server",
+  "command": "/usr/bin/g++ -Ddongmin_server_EXPORTS -I/home/dmkim/Documents/socket/server -I\"/home/dmkim/Documents/socket/server/*.h\" -g -fPIC -g -Wall -Wextra -Werror -Wno-error=missing-field-initializers -Wno-error=write-strings -D_FILE_OFFSET_BITS=64 -std=gnu++17 -o CMakeFiles/dongmin_server.dir/server.cpp.o -c /home/dmkim/Documents/socket/server/server.cpp",
+  "file": "/home/dmkim/Documents/socket/server/server.cpp"
+},
+{
+  "directory": "/home/dmkim/Documents/socket/build/client",
+  "command": "/usr/bin/g++ -Ddongmin_client_EXPORTS -I/home/dmkim/Documents/socket/client -g -fPIC -g -Wall -Wextra -Werror -Wno-error=missing-field-initializers -Wno-error=write-strings -D_FILE_OFFSET_BITS=64 -std=gnu++17 -o CMakeFiles/dongmin_client.dir/client.cpp.o -c /home/dmkim/Documents/socket/client/client.cpp",
+  "file": "/home/dmkim/Documents/socket/client/client.cpp"
+}
+]

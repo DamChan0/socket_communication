@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/socket.dir/main.cpp.o -o socket  -Wl,-rpath,/home/dmkim/Documents/socket/build/server:/home/dmkim/Documents/socket/build/client: -lpthread server/libdongmin_server.so client/libdongmin_client.so -lpthread 
